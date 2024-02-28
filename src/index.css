@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Elanor';
+    src: url('/src/fonts/Elanor-Free/ElanorFreePersonalUse-ExtLt.otf') format('opentype');
+}
+
+:root {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #102551;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

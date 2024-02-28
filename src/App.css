@@ -1,0 +1,7 @@
+.login-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 100vh;
+}

@@ -4,7 +4,7 @@ import '../stylesheets/Illustration.css'
 export default function Illustration () {
     return (
         <div className="img-content">
-                <img src="/public/team.svg" alt="team" />
+                <img src="../src/imagenes/team.svg" alt="team" />
         </div>
     )
 }

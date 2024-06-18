@@ -3,6 +3,12 @@
     src: url('/src/fonts/Elanor-Free/ElanorFreePersonalUse-ExtLt.otf') format('opentype');
 }
 
+body {
+  margin: 0;
+  max-width: 99%;
+  overflow-x: hidden;
+}
+
 :root {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.2;
@@ -16,5 +22,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+  scrollbar-width: none; /* Para Firefox */
 }
 

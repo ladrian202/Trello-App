@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import '../stylesheets/Login.css';
 import { FaUserAlt } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
 
 export default function Login() {
+
+    const [isChecked, SetIsChecked] = useState(false);
+
+    const handleClick = () => {
+        SetIsChecked(!isChecked)
+    }
+
     return (
             <div className="login-form">
                 <h1>Log In</h1>
@@ -15,9 +22,9 @@ export default function Login() {
                     <div className="input"><RiLockPasswordFill className="icon" /><input type="Password"placeholder="Password" /></div>
                 </form>
 
-                <div className="check-content">
-                        <input type="checkbox" name="agreement" />
-                        <p>I agree to the plataform accesing my information.</p>
+                <div onClick={handleClick} className="check-content">
+                        <input type="checkbox" name="agreement" checked={isChecked} />
+                        <p>I agree with the Terms and Conditions.</p>
                     </div>
                     <button>Start Now</button>
             </div>

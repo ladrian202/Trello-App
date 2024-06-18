@@ -4,6 +4,8 @@
     padding: 30px 20px;
     color: #f9ffff;
     border-radius: 20px;
+    cursor: default;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 .login-form form {
@@ -16,7 +18,7 @@
 }
 
 .login-form p {
-    color: #888888;
+    color: hsl(176, 100%, 84%);;
     font-weight: bold;
 }
 
@@ -31,7 +33,7 @@
     padding: 20px 0;
     margin-left: 15px;
     width: 100%;
-    cursor: pointer;
+    cursor: default;
 }
 
 .login-form form .input {
@@ -39,9 +41,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid #888888;
     margin: 10px 0;
     border-radius: 10px;
+    background-color: #102551;
 }
 
 .login-form form .input .icon {
@@ -69,4 +71,5 @@ button {
     font-weight: bold;
     font-size: 1.2rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
